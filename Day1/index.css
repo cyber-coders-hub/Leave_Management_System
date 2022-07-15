@@ -1,0 +1,34 @@
+.login{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    border: 1px solid black;
+    padding: 25px 25px 25px 25px;
+    background-image: linear-gradient(to right , #A5ADB8, #9CC5FF, #82B6FF, #B59E72,#FFD482);
+}
+
+.submit{
+    display: flex;
+    width: 100%;
+    top: 50vh;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.list_items{
+    display: list-item;
+}
+
+.field{
+    width: 15rem;
+    margin: 0 0 15px 0;
+}
+
+::placeholder {
+    color: orange;
+  }
